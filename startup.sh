@@ -1,0 +1,11 @@
+/Users/kajihara/.jenv/shims/java -javaagent:contrast.jar \
+-Dcontrast.server.environment=development \
+-Dcontrast.server.name=KajiMacBook \
+-Dcontrast.agent.java.standalone_app_name=EasyBuggy4Java_MacBook \
+-Dcontrast.application.version=v1.0.0 \
+-Dcontrast.agent.contrast_working_dir=contrast-8080/ \
+-Dcontrast.agent.logger.level=INFO \
+-Dcontrast.app.activity.period=700 \
+-Dcontrast.server.activity.period=700 \
+-Dcontrast.timeout=10 \
+-jar ./target/easybuggy.jar
